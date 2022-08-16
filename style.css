@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'loraregular';
+    src: url('lora-variablefont_wght-webfont.woff2') format('woff2'),
+         url('lora-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'loraregular';
+    background-color: lightslategray;
+}
+
+main{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+button{
+    padding: 0.5em 1.2em;
+    border-radius: 5px;
+    border: none;
+    font-family: 'loraregular';
+}
+
+button:hover{
+    background-color: lightsteelblue;
+}
